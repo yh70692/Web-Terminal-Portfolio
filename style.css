@@ -1,0 +1,99 @@
+/* CSS styles */
+body, html {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #232323;
+    color: #0f0;
+}
+
+/* Set background color and text color for the body */
+body {
+    width: 100%;
+    height: 2000px;
+    display: block;
+    background-color: #232323;
+    color: #B89076;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.terminal {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    overflow: auto; /* Enable scrolling for the terminal */
+}
+
+.terminal-content {
+    overflow-y: scroll;
+}
+
+/* Adjust container dimensions */
+.container {
+    width: 100%; /* Adjust the width as needed */
+    height: 80vh; /* Adjust the width as needed */
+    max-width: 1200px; /* Set a maximum width if desired */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.output {
+    overflow-y: auto;
+    max-height: 60%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    color: rgb(94, 255, 0);
+    padding-right: 5px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    caret-color: rgb(0, 255, 0);
+    width: calc(100% - 16ch); /* Adjust the width to fit the remaining space */
+}
+
+a {
+    text-decoration: none; /* Remove default underline */
+    outline: none; /* Remove the outline */
+    color: #0f0; /* Set link color (green) */
+}
+
+/* Add underline on hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Define the styles for the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+    background-color: #232323; /* Set the background color */
+  }
+  
+  /* Define the style for the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #232323; /* Set the background color for the scrollbar track */
+  }
+  
+  /* Define the style for the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #00ff00; /* Set the green color for the scrollbar thumb */
+    border-radius: 6px; /* Round the corners of the scrollbar thumb */
+  }
+  
+  /* Optionally, you can style the scrollbar when it's hovered over */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #007700; /* Change the color on hover */
+  }
+  
