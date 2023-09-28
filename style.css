@@ -16,7 +16,7 @@ body {
     background-color: #232323;
     color: #B89076;
     font-family: monospace;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .terminal {
@@ -24,7 +24,6 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     overflow: auto; 
 }
 
