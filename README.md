@@ -18,6 +18,5 @@ I also plan to refine and expand this project continually, adding more features 
 - Enable view projects directly from the terminal
 - And more I didn't think of yet  ¯\_(ツ)_/¯ 
 
-
-
+# Website Demo
 
