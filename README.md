@@ -1,4 +1,4 @@
-# Web-Terminal-Portfolio
+# Web-Terminal-Portfolio </>💻
 
 ```
 I wanted a terminal website to demonstrate my skills as a web developer and showcase
