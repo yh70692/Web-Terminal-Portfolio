@@ -18,5 +18,7 @@ I also plan to refine and expand this project continually, adding more features 
 - Enable view projects directly from the terminal
 - And more I didn't think of yet  ¯\_(ツ)_/¯ 
 
-# Website Demo
-
+<h3 align="center"> Project Demo </h3>
+<p align="center">
+  <img src= "https://github.com/yh70692/Web-Terminal-Portfolio/blob/d83e9edb8fa5b2fd229e24a6c63e79ea33db60dd/terminal.demo.gif">
+</p>
